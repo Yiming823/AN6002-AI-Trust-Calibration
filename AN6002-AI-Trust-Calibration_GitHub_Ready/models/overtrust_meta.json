@@ -1,0 +1,56 @@
+{
+  "features": [
+    "ai_confidence_percentage",
+    "has_cited_sources",
+    "contains_hedging_words",
+    "query_category",
+    "decision_importance",
+    "ai_familiarity_level",
+    "digital_literacy_score"
+  ],
+  "threshold_points": 20,
+  "base_rate": 0.245,
+  "n_rows": 1000,
+  "cv_auc_logistic": 0.768,
+  "confidence_range": [
+    40.52,
+    98.66
+  ],
+  "options": {
+    "query_category": [
+      "creative_writing",
+      "current_events",
+      "factual_historical",
+      "financial_advice",
+      "general_knowledge",
+      "legal_advice",
+      "math_calculation",
+      "medical_advice",
+      "opinion_based",
+      "recipe_cooking",
+      "scientific_facts",
+      "technical_coding"
+    ],
+    "decision_importance": [
+      "Critical",
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "ai_familiarity_level": [
+      "Advanced",
+      "Beginner",
+      "Expert",
+      "First Time",
+      "Intermediate"
+    ],
+    "digital_literacy_score": [
+      "Expert",
+      "High",
+      "Low",
+      "Medium"
+    ]
+  },
+  "sklearn_version": "1.9.1",
+  "screening_threshold": 0.3
+}
